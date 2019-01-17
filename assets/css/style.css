@@ -3,13 +3,28 @@ body {
 }
 
 form {
-    color: black;
-    background-color: white;
+    color:black;
+    background-color: gray;
     opacity: 0.75;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.question {
+    padding: 10%, 10%, 10%, 10%;
+    font-weight: bold;
+}
+
+.answers {
+    font-weight:lighter;
 }
 
 #header {
     padding-top: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    font-weight: bold;
 
 }
 
@@ -26,4 +41,8 @@ h2 {
     font-family: 'Indie Flower', cursive;
     color: aliceblue;
     
+}
+
+button {
+    text-align: center;
 }

@@ -11,102 +11,121 @@
     </head>
     <body background="assets/images/friends-wallpapers.jpg" class="col-sm-12">
         <div id="header">
-            <h1>Are You A Friends Expert?</h1>
+            <h1>Are You A "Friends" Expert?</h1>
             <h2>Test your knowledge with this quiz</h2>
+            <p> You have 120 seconds to answer the questions below. Go!</p>
         </div>
-        <form name="quiz">
-        1. Which female character ran out on her wedding on the very first episode of the show?
-            <div class="answers">
-                    <input type="radio" name="q1" value="Monica"> Monica </input>
-                    <input type="radio" name="q1" value="Rachel"> Rachel </input>
-                    <input type="radio" name="q2" value="Phoebe"> Phoebe </input>
-            </div>
+        <div id="show-number"></div>
+
+        <form class="quiz">
         
-                
-        <!-- 2. What was the name of Ross' pet monkey?
-                answers: {
-                    a: "Marcel" ,
-                    b: "Harvey" ,
-                    c: "George" ,
-                },
-                correctAnswer = "a"
-            },
-            {
-        3. What smelly animal does Phoebe sing about at the Central Perk?
-                answers: {
-                    a: "Dog" ,
-                    b: "Elephant" ,
-                    c: "Cat" ,
-                },
-                correctAnswer = "c"
-            },
-            {
-        4. Which department store did Rachel work at during part of the show?
-                answers: {
-                    a: "Macy's" ,
-                    b: "Bloomingdale's" ,
-                    c: "Nordstrom" ,
-                },
-                correctAnswer = "b"
-            },
-            {
-        5. What is the name of Joey's agent?
-                answers: {
-                    a: "Stella" ,
-                    b: "Estelle" ,
-                    c: "Doris" ,
-                },
-                correctAnswer = "b"
-            },
-            {
-        6. What soap opera was Joey a guest star on?
-                answers: {
-                    a: "Days of Our Lives" ,
-                    b: "As the World Turns" ,
-                    c: "The Young and the Restless" ,
-                },
-                correctAnswer = "a"
-            },
-            {
-        7. In which city did Ross marry Emily?
-                answers: {
-                    a: "New York" ,
-                    b: "Paris" ,
-                    c: "London" ,
-                },
-                correctAnswer = "c"
-            },
-            {
-        8. What is Chandler's middle name?
-                answers: {
-                    a: "Marcel" ,
-                    b: "Muriel" ,
-                    c: "Michael" ,
-                },
-                correctAnswer = "b"
-            },
-            {
-        9. What are the names of Monica and Chandler's twins?
-                answers: {
-                    a: "Jack and Erika" ,
-                    b: "Joe and Emma" ,
-                    c: "Jack and Emma" ,
-                },
-                correctAnswer = "a"
-            },
-            {
-        10. In what city did Rachel marry Ross?
-                answers: {
-                    a: "New York" ,
-                    b: "Las Vegas" ,
-                    c: "Paris" ,
-                },
-                correctAnswer = "c"
-            } -->
+        <div class="question">
+            1. Which female character ran out on her wedding on the very first episode of the show?
+            <div class="answers">
+                a. <input type="radio" name="q1" value="a"> Monica </input>
+                b. <input type="radio" name="q1" value="b"> Rachel </input>
+                c. <input type="radio" name="q1" value="c"> Phoebe </input>
+            </div>
+        </div>
+                <!-- correctAnswer = "b" -->
+        
+        <div class="question">        
+            2. What was the name of Ross' pet monkey?
+            <div class="answers">
+                a. <input type="radio" name="q2" value="a"> Marcel </input>
+                b. <input type="radio" name="q2" value="b"> Harvey </input>
+                c. <input type="radio" name="q2" value="c"> George </input>
+            </div>
+        </div>    
+
+                <!-- correctAnswer = "a" -->
+
+        <div class="question">       
+            3. What smelly animal does Phoebe sing about at the Central Perk?
+            <div class="answers">
+                a. <input type="radio" name="q3" value="a"> Dog </input>
+                b. <input type="radio" name="q3" value="b"> Elephant </input>
+                c. <input type="radio" name="q3" value="c"> Cat </input>
+            </div>
+        </div>    
+            
+                <!-- correctAnswer = "c" -->
+
+        <div class="question">
+            4. Which department store did Rachel work at during part of the show?
+            <div class="answers">
+                a. <input type="radio" name="q4" value="a"> Macy's </input>
+                b. <input type="radio" name="q4" value="b"> Bloomingdale's </input>
+                c. <input type="radio" name="q4" value="c"> Nordstrom </input>
+            </div>
+        </div>    
+                <!-- correctAnswer = "b" -->
+
+        <div class="question">
+            5. What is the name of Joey's agent?
+            <div class="answers">
+                a. <input type="radio" name="q5" value="a"> Stella </input>
+                b. <input type="radio" name="q5" value="b"> Estelle </input>
+                c. <input type="radio" name="q5" value="c"> Doris </input>
+            </div>
+        </div>      
+                <!-- correctAnswer = "b" -->
+
+        <div class="question">
+            6. What soap opera was Joey a guest star on?
+            <div class="answers">
+                a. <input type="radio" name="q6" value="a"> Days of Our Lives </input>
+                b. <input type="radio" name="q6" value="b"> As the World Turns </input>
+                c. <input type="radio" name="q6" value="c"> The Young and the Restless </input>
+            </div>
+        </div>    
+                <!-- correctAnswer = "a" -->
+            
+        <div class="question"> 
+            7. In which city did Ross marry Emily?
+            <div class="answers">
+                a. <input type="radio" name="q7" value="a"> New York </input>
+                b. <input type="radio" name="q7" value="b"> Paris </input></li>
+                c. <input type="radio" name="q7" value="c"> London </input>
+            </div>
+        </div>           
+                <!-- correctAnswer = "c" -->
+        
+        <div class="question">    
+            8. What is Chandler's middle name?
+            <div class="answers">
+                a. <input type="radio" name="q8" value="a"> Marcel </input>
+                b. <input type="radio" name="q8" value="b"> Muriel </input>
+                c. <input type="radio" name="q8" value="c"> Michael </input>
+            </div>
+        </div>        
+                <!-- correctAnswer = "b" -->
+       
+        <div class="question">    
+            9. What are the names of Monica and Chandler's twins?
+            <div class="answers">
+                a. <input type="radio" name="q9" value="a"> Jack and Emma </input>
+                b. <input type="radio" name="q9" value="b"> Joe and Emma </input>
+                c. <input type="radio" name="q9" value="c"> Jack and Emma </input>
+            </div>
+        </div>       
+                <!-- correctAnswer = "a" -->
+           
+        <div class="question">
+            10. In what city did Rachel marry Ross?
+            <div class="answers">
+                a. <input type="radio" name="q10" value="a"> New York </input>
+                b. <input type="radio" name="q10" value="b"> Las Vegas </input>
+                c.<input type="radio" name="q10" value="c"> Paris </input>
+            </div>
+        </div>
+                <!-- correctAnswer = "c" -->
+        
+            <button id="submit" onclick="showResults">Submit</button>
         
             
         </form>
-        <button id="submit">Submit</button>
+        
 
 
 
