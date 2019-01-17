@@ -1,0 +1,29 @@
+body {
+    /* background-image: url("...assets/images/friends-wallpaper.jpg") */
+}
+
+form {
+    color: black;
+    background-color: white;
+    opacity: 0.75;
+}
+
+#header {
+    padding-top: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    
+}
