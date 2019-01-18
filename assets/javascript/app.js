@@ -36,7 +36,7 @@
 
 const quizContainer = $("#quiz");
 const submitButton = $("#submit");
-const showResults = $("#results");
+const resultsContainer = $("#results");
 
 const myQuestions = [
     {
