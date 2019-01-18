@@ -12,6 +12,7 @@ form {
 
 .question {
     padding: 10%, 10%, 10%, 10%;
+    align-self: center;
     font-weight: bold;
 }
 

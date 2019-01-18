@@ -3,7 +3,7 @@
 
 // / Define the timer.
 // // start time
-  var number = 60;
+  var number = 120;
     //  Variable that will hold our interval ID when we execute
     //  the "start" function
   var intervalId;
@@ -33,10 +33,10 @@
 
 // First I need to create my variables
 
-// const gameTimer = 0;
-const quizContainer = document.getElementById("quiz");
-const submitButton = document.getElementById("submit");
-const showResults = document.getElementById("results");
+
+const quizContainer = $("#quiz");
+const submitButton = $("#submit");
+const showResults = $("#results");
 
 const myQuestions = [
     {
@@ -134,7 +134,7 @@ const myQuestions = [
 
 function buildQuiz(){
     // this is where the html will be stored
-    const output = []
+    const output = [];
 
     // For each question, we want to store the list of possible answers
     myQuestions.forEach((currentQuestion, questionNumber) => {
@@ -201,4 +201,5 @@ function showResults(){
 }
 $("#submit").on("click", showResults);
 
+// Something with the syntax in this JS is messing with all of the code so it is not working on the HTML. I console.log'ed several things to see if would would log something and still nothing.
 
